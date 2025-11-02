@@ -130,6 +130,19 @@ hr {
 .image-1, .image-3{
   grid-column: 1 / -1;
 }
+footer {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+footer a{
+  color: linen;
+}
+footer a:hover{
+  color: rgb(0, 255, 0);
+}
 @media only screen and (max-width: 720px) {
   .image-wrapper {
     grid-template-columns: 1fr;
